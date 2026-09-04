@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Ticket Booking</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>IPL BOOKING</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#matches">Matches</a></li>
+        <li><a href="#booking">Book Ticket</a></li>
+        <li><a href="#bookings">My Bookings</a></li>
+        <li><a href="#guidelines">Guidelines</a></li>
+    </ul>
+</nav>
+
+<section class="hero">
+    <h1>Experience The Stadium Energy Live!</h1>
+    <p>Book your IPL tickets and enjoy the match live.</p>
+    <a href="#booking" class="btn">Book Ticket</a>
+</section>
+
+<main>
+
+    <!-- Matches -->
+    <section id="matches">
+        <h2>Upcoming Matches</h2>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Match</th>
+                    <th>Date</th>
+                    <th>Venue</th>
+                    <th>Time</th>
+                </tr>
+
+                <tr>
+                    <td>RCB vs CSK</td>
+                    <td>10 April</td>
+                    <td>Bangalore</td>
+                    <td>7:30 PM</td>
+                </tr>
+
+                <tr>
+                    <td>MI vs KKR</td>
+                    <td>12 April</td>
+                    <td>Mumbai</td>
+                    <td>7:30 PM</td>
+                </tr>
+
+                <tr>
+                    <td>RCB vs MI</td>
+                    <td>15 April</td>
+                    <td>Bangalore</td>
+                    <td>7:30 PM</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- Booking -->
+    <section id="booking">
+
+        <h2>Book Your IPL Ticket</h2>
+
+        <div class="booking-container">
+
+            <!-- Booking Form -->
+            <div class="booking-form">
+
+                <h3>Booking Form</h3>
+
+                <form>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name"
+                           placeholder="Enter your name">
+
+                    <label for="match">Select Match:</label>
+
+                    <select id="match">
+                        <option>RCB vs CSK</option>
+                        <option>MI vs KKR</option>
+                        <option>RCB vs MI</option>
+                    </select>
+
+                    <label for="tickets">
+                        Number of Tickets:
+                    </label>
+
+                    <input type="number"
+                           id="tickets"
+                           min="1">
+
+                    <button type="submit">
+                        Book Ticket
+                    </button>
+
+                </form>
+
+            </div>
+
+
+            <!-- Booking Summary -->
+            <div class="booking-summary">
+
+                <h3>Booking Summary</h3>
+
+                <p>
+                    <strong>Match:</strong>
+                    RCB vs CSK
+                </p>
+
+                <p>
+                    <strong>Venue:</strong>
+                    M. Chinnaswamy Stadium
+                </p>
+
+                <p>
+                    <strong>Date:</strong>
+                    10 April
+                </p>
+
+                <p>
+                    <strong>Tickets:</strong>
+                    2
+                </p>
+
+                <p>
+                    <strong>Total:</strong>
+                    ₹2000
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- My Bookings -->
+    <section id="bookings">
+
+        <div class="card">
+
+            <h2>My Bookings</h2>
+
+            <p>
+                Your booked IPL tickets will appear here.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Guidelines -->
+    <section id="guidelines">
+
+        <div class="card">
+
+            <h2>Guidelines</h2>
+
+            <p>
+                Carry your valid ticket and ID proof to the stadium.
+            </p>
+
+            <p>
+                Follow stadium security and seating rules.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>
+        &copy; 2026 IPL Ticket Booking. All Rights Reserved.
+    </p>
+</footer>
+
+</body>
+</html>
